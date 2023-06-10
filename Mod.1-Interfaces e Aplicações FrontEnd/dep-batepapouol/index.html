@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        
+        <title>Bate-Papo UOL</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/loader.css">
+    </head>
+    <body>
+    <!--Tela Inicial-->
+        <div class="openCard">
+            <div class="login">
+                <img src="images/logo.png">
+                <input type="text" placeholder="Digite seu nome">
+                <span class="click buttom" onclick="entrarButtom()"><p>Entrar</p></span>
+                <span class="erroMsg"></span>
+            </div>
+            <div class="loader escondido">
+                <img src="images/logo.png">
+                <div class="loading">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <span><p>Entrando...</p></span>
+            </div>
+        </div>
+    <!--Menu Lateral-->
+        <menu class="escondido">
+            <span class="top">
+                <h6>Escolha um contato para enviar mensagem:</h6>
+                <ion-icon class="exit click" name="close-circle" onclick="fecharMenu()"></ion-icon>
+            </span>
+            <span>
+                <ion-icon class="click" name="people"></ion-icon>
+                <p>Todos</p>
+            </span>
+            <span>
+                <ion-icon name="person-circle"></ion-icon>
+                <p>nomeUsuário</p>
+            </span>
+            <span>
+                <h6>Escolha a visibilidade:</h6>
+            </span>
+            <span>
+                <ion-icon name="lock-open"></ion-icon>
+                <p>Público</p>
+            </span>
+            <span>
+                <ion-icon name="lock-closed"></ion-icon>
+                <p>Privado</p>
+            </span>
+        </menu>
+    <!--Topo-->
+        <header>
+            <img src="images/logo.png">
+            <ion-icon class="click" name="people" onclick="abrirMenu()"></ion-icon>
+        </header>
+    <!--Mensagens-->
+        <div class="container">
+            <ul class="mensagens">
+
+<!--
+                
+                <li class="messages everyone">
+                    (00:00:00) Nome1 para Todos:  Bom dia 
+                </li>
+                <li class="messages block">
+                    (00:00:00) Nome2 para Nome1:  Oi Nome1 :) 
+                </li>
+                <li class="messages inPrivate">
+                    (00:00:00) Nome1 reservadamente para Nome2: Oi gatinha quer tc?
+                </li>
+                <li class="messages InOut">
+                    (00:00:00) Nome2 saiu da sala...
+                </li>
+-->
+
+            </ul>
+        </div>
+    <!--Enviar-->
+        <footer>
+            <input type="text" placeholder="Escreva aqui...">
+            <ion-icon class="click" name="paper-plane-outline" onclick="enviarMensagens()"></ion-icon>
+        </footer>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

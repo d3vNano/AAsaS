@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fashion Driven</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/Logo.png"/>
+    </header>
+    <main>
+        <section class="left-block">
+            <span class="first choice-table">
+                <p class="section-tittle">Escolha o modelo</p>
+                <span class="first-choices">
+                    <div class="model item click">
+                        <span class="elypse" id="t-shirt" onclick="selectModel(this)">
+                            <img src="images/tshirt.png"/>
+                        </span>
+                        <p>T-Shirt</p>
+                    </div>
+                    <div class="model item click">
+                        <span class="elypse" id="top-tank" onclick="selectModel(this)">
+                            <img src="images/Camiseta.png"/>
+                        </span>
+                        <p>Camiseta</p>
+                    </div>
+                    <div class="model item click">
+                        <span class="elypse" id="long" onclick="selectModel(this)">
+                            <img src="images/Mangalonga.png"/>
+                        </span>
+                        <p>Manga Longa</p>
+                    </div>
+                </span>
+            </span>
+            <span class="second choice-table">
+                <p class="section-tittle">Escolha a gola</p>
+                <span class="first-choices">
+                    <div class="collar item click">
+                        <span class="elypse" id="v-neck" onclick="selectCollar(this)">
+                            <img src="images/GolaV.png"/>
+                        </span>
+                        <p>Gola V</p>
+                    </div>
+                    <div class="collar item click">
+                        <span class="elypse" id="round" onclick="selectCollar(this)">
+                            <img src="images/GolaRedonda.png"/>
+                        </span>
+                        <p>Gola Redonda</p>
+                    </div>
+                    <div class="collar item click">
+                        <span class="elypse" id="polo" onclick="selectCollar(this)">
+                            <img src="images/GolaPolo.png"/>
+                        </span>
+                        <p>Gola Polo</p>
+                    </div>
+                </span>
+            </span>
+            <span class="third choice-table">
+                <p class="section-tittle">Escolha o tecido</p>
+                <span class="first-choices">
+                    <div class="tissue item click">
+                        <span class="elypse" id="silk" onclick="selectTissue(this)">
+                            <img src="images/Seda.png"/>
+                        </span>
+                        <p>Seda</p>
+                    </div>
+                    <div class="tissue item click">
+                        <span class="elypse" id="cotton" onclick="selectTissue(this)">
+                            <img src="images/Algodão.png"/>
+                        </span>
+                        <p>Algodão</p>
+                    </div>
+                    <div class="tissue item click">
+                        <span class="elypse" id="polyester" onclick="selectTissue(this)">
+                            <img src="images/Poliester.png"/>
+                        </span>
+                        <p>Poliéster</p>
+                    </div>
+                </span>
+            </span>
+            <span class="fourth choice-table">
+                <p class="section-tittle">Imagem de referência</p>
+                <input type="text" placeholder="Insira o link" onkeyup="assignValue()">
+                <button class="request" onclick="chooseAllAlert()">Monte seu pedido</button>
+            </span>
+        </section>
+        <section class="right-block">
+            <img src="images/ilustração.png"/>
+        </section>
+    </main>
+    <footer>
+        <p class="footer-tittle">Ultimos pedidos</p>            
+        <span class="footer-table">
+            <ul>
+                <!--
+                <li>
+                    <img src="images/Blusa1.png"/>
+                    <p><strong>Criador: Nome</strong></p>
+                </li>
+                <li>
+                    <img src="images/Blusa2.png"/>
+                    <p><strong>Criador: Nome</strong></p>
+                </li>                <li>
+                    <img src="images/Blusa3.png"/>
+                    <p><strong>Criador: Nome</strong></p>
+                </li>                <li>
+                    <img src="images/Blusa4.png"/>
+                    <p><strong>Criador: Nome</strong></p>
+                </li>                <li>
+                    <img src="images/Blusa5.png"/>
+                    <p><strong>Criador: Nome</strong></p>
+                </li>
+            -->
+            </ul>
+        </span>
+    </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
