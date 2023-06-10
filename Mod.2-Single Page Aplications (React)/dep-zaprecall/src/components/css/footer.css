@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+
+    padding: 25px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    background-color: #FFFFFF;
+}
+
+.resposta-final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resposta-final img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.resposta-final p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.resp {
+    margin: 10px 75px;
+
+    font-size: 18px;
+    text-align: center;
+}

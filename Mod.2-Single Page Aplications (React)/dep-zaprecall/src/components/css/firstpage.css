@@ -1,0 +1,19 @@
+.body-class {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Recursive', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FB6B6B;
+    border: 1px solid #DBDBDB;
+}
+
+.first-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

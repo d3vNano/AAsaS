@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+.recalls {
+    margin-top: 30px;
+    padding-bottom: 75px;
+}
+
+.deck {
+    width: 300px;
+    height: 65px;
+    padding: 0 15px;
+    margin-bottom: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.deck {
+    font-size: 16px;
+    font-weight: 700;
+
+    color: #333333;
+}
+
+.deck ion-icon {
+    font-size: 25px;
+    font-weight: 900;
+    color: #333333;
+}
+
+.question {
+    width: 300px;
+    height: 140px;
+    padding: 15px 15px;
+    margin-bottom: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background: #FFFFD5;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    position: relative;
+}
+
+.question ion-icon {
+    font-size: 25px;
+    font-weight: 900;
+    padding: 10px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    color: #333333;
+}
+
+.question div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.question button {
+    width: 85px;
+    height: 37px;
+    margin: 0px 5px;
+    
+    border: none;
+    border-radius: 5px;
+
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Recursive', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.red p {
+    text-decoration-line: line-through;
+    font-style: normal;
+    color: #FF3030;
+}
+
+.red ion-icon {
+    color: #FF3030;
+}
+
+.yellow p {
+    text-decoration-line: line-through;
+    font-style: normal;
+    color: #FF922E;
+}
+
+.yellow ion-icon {
+    color: #FF922E;
+}
+
+.green p {
+    text-decoration-line: line-through;
+    font-style: normal;
+    color: #2FBE34;
+}
+
+.green ion-icon {
+    color: #2FBE34;
+}
+
+.question .red {
+    background-color: #FF3030;
+}
+
+.question .yellow {
+    background-color: #FF922E;
+}
+
+.question .green {
+    background-color: #2FBE34;
+}

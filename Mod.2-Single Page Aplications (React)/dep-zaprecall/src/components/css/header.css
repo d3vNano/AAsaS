@@ -1,0 +1,21 @@
+.logo-block {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.general-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.general-logo img{
+    width: 52px;
+    margin-right: 20px;
+}
+
+.general-logo h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 36px;
+    color: #FFFFFF;
+}
