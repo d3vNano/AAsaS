@@ -1,0 +1,364 @@
+* {
+    box-sizing: border-box;
+}
+
+input {
+    width: 480px;
+    border: none;
+    outline: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+more {
+    color: #cccccc;
+    cursor: pointer;
+}
+
+.body-cont {
+    margin-top: 75px;
+}
+
+.prim-cont {
+    width: 635px;
+    margin: 10px;
+}
+
+.storyes-cont {
+    width: 615px;
+    height: 118px;
+    margin: 0px 10px 18px 10px;
+
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.arrow-button {
+    display: flex;
+    align-items: center;
+}
+
+.arrow-button ion-icon {
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    position: absolute;
+    right: 5px;
+    z-index: 1;
+
+    filter: drop-shadow(-1px 0 0.6px rgba(54, 53, 53, 0.562));
+}
+
+.stories-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stories-icon img {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.stories-border img {
+    width: 66px;
+    height: 66px;
+    position: relative;
+    top: 2px;
+}
+
+.story-block {
+    width: 80px;
+    height: 100px;
+    margin: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.story-block h6 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.feed-cont {
+    width: auto;
+    margin: 0px 10px 50px 10px;
+
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.top-block {
+    width: 612px;
+    height: 61px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userimg-feed {
+    display: flex;
+    align-items: center;
+
+    margin-left: 15px;
+}
+
+.userimg-feed img{
+    width: 38px;
+    height: 38px;
+    margin-right: 15px;
+
+    border-radius: 100%;
+}
+
+.userimg-feed h6{
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+}
+
+.top-block ion-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.mid-block {
+    width: 613px;
+    height: 613px;
+}
+
+.mid-block img {
+    width: 100%;
+}
+
+.mid-block video {
+    width: 100%;
+}
+
+.bottom-block {
+    width: 612px;
+}
+
+.icons-bottom {
+    width: 612px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    margin: 5px 10px;
+}
+
+.likebar-bottom {
+    margin: 0 17px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.likebar-bottom img {
+    width: 20px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.likebar-bottom p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.comment-style h6 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.comment-style p {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.comment-line-1 {
+    margin: 12px 17px;
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-line-2 {
+    margin: 8px 10px 0px 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-comment {
+    display: flex;
+}
+
+.more-comment {
+    margin: 10px 17px;
+}
+
+.more-comment p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+
+.icons-bottom ion-icon {
+    width: 22px;
+    height: 22px;
+    margin: 5px 5px;
+}
+
+.like-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.post-date {
+    margin: 20px 17px;
+}
+
+.post-date p{
+    font-size: 10px;
+    font-weight: 500;
+    color: #8e8e8e;
+}
+
+.emotes-block {
+    margin: 0 5px;
+}
+
+.emotes-block ion-icon{
+    width: 22px;
+    height: 22px;
+}
+
+.comment-block {
+    height: 55px;
+    margin: 0px 10px;
+    border-top: 1px solid rgb(219, 219, 219, 0.5);
+
+    display: flex;
+    align-items: center;
+}
+
+.commently {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.send-buttom p {
+    color: #B2DFFC;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.send-buttom p:hover {
+    color: #0095F6;
+    font-weight: bold;
+    font-size: 13px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+@media (max-width: 935px) {
+
+    body {
+        width: 100%;
+    }
+
+    .center {
+        width: 100%;
+    }
+    
+    .body-cont {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prim-cont {
+        width: auto;
+    }
+  }
+
+  @media (max-width: 614px) {
+
+    input {
+        width: 100%;
+    }
+    
+    .body-cont {
+        margin-top: 44px;
+    }
+
+    .prim-cont {
+        width: 100%;
+    }
+    
+    .storyes-cont {
+        width: 100%;
+        height: 118px;
+        margin: 0px 0px 5px 0px;
+
+        background-color: inherit;
+        border: none;
+        border-radius: 3px;
+    }
+    
+    .arrow-button {
+        display: none;
+    }
+    
+    
+    .feed-cont {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .top-block {
+        width: 100%;
+    }
+    
+    .mid-block {
+        width: 100%;
+        height: 100%;
+    }
+        
+    .bottom-block {
+        width: 100%;
+    }
+    
+    .icons-bottom {
+        width: 100%;
+    }
+  }

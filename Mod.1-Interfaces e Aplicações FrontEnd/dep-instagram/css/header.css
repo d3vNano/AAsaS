@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    width: 935px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ion-icon:hover {
+    cursor: pointer;
+    filter: opacity(50%);
+}
+
+.link-indicator:hover {
+    cursor: pointer;
+}
+
+.header-cont {
+    width: 100%;
+    height: 54px;
+
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+    z-index: 2;
+
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center {
+    width: 935px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-class {
+    display: flex;
+    align-items: center;
+}
+
+.logo-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.icon-block ion-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.spacer {
+    margin: 0px 10px;
+    width: 1px;
+    height: 22px;
+    background: #DBDBDB;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.logo-block img {
+    height: 35px;
+}
+
+.search-block {
+    width: 215px;
+    height: 28px;
+  
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-block input {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+  }
+
+.login-block {
+    padding: 0 15px;
+}
+
+.login-block ion-icon {
+    width: 22px;
+    height: 22px;
+    margin: 0px 5px;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+@media (max-width: 614px) {
+
+    body {
+        width: 100%;
+    }
+
+    .header-cont {
+        width: 100%;
+    }
+
+    .center {
+        width: 100%;
+    }
+
+    .person-outline {
+        display: none;
+    }
+
+    .heart-outline {
+        display: none;
+    }
+
+    .compass-outline {
+        display: none;
+    }
+
+    .spacer {
+        display: none;
+    }
+
+    .search-block{
+        display: none;
+    }
+
+    .logo-block img {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: initial;
+    }
+    
+    .footer-mobile {
+        width: 100%;
+        height: 54px;
+        padding: 0 10px;
+        background-color: #FFFFFF;
+        border: 1px solid #DBDBDB;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+    .footer-mobile ion-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    ion-icon .home-mobile:hover { 
+        background-image: url(home-outline);
+        
+    }
+}
